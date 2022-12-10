@@ -48,7 +48,9 @@
 namespace povwin
 {
 
-using namespace pov;
+#if !defined(_CONSOLE)
+	using namespace pov;
+#endif
 
 typedef pov_frontend::Display::RGBA8 GuiRGBA8;
 typedef COLC COLOUR[5];
