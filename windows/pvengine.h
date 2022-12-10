@@ -49,7 +49,7 @@
 #endif
 
 #ifdef _CONSOLE
-#error "You are building the GUI platform with _CONSOLE defined (check windows/povconfig/syspovconfig.h)."
+// #error "You are building the GUI platform with _CONSOLE defined (check windows/povconfig/syspovconfig.h)."
 #endif
 
 #include <string.h>

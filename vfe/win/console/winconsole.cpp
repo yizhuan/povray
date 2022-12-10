@@ -42,9 +42,10 @@
 #include "vfe.h"
 
 #ifndef _CONSOLE
-#error "You must define _CONSOLE in windows/povconfig/syspovconfig.h prior to building the console version, otherwise you will get link errors."
+// #error "You must define _CONSOLE in windows/povconfig/syspovconfig.h prior to building the console version, otherwise you will get link errors."
 #endif
 
+using namespace std;
 using namespace vfe;
 using namespace vfePlatform;
 
